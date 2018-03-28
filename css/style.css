@@ -118,10 +118,9 @@ ABOUT, PROJECTS, CONTACT SECTION STYLES
 
 .about .rightAboutText {
   min-height: 100vh;
-  padding: 25px;
+  padding-top: 20px;
   width: 80%;
-  margin: auto;
-  overflow-y: scroll; }
+  margin: auto; }
 
 .projects .leftProjectsText {
   min-height: 100vh;
@@ -165,7 +164,7 @@ label {
 
 textarea {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  overflow: hidden; }
+  overflow: auto; }
 
 .error {
   color: red;
@@ -194,6 +193,7 @@ input[type=reset]:hover {
 
 .socialMediaIcons {
   padding-top: 50px;
+  padding-right: 25px;
   text-align: center; }
 
 .socialMediaIcons span {
@@ -226,7 +226,7 @@ input[type=reset]:hover {
     display: block;
     text-align: left; } }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (orientation: portrait) {
   /* For tablets: */
   label {
     float: right; }
@@ -236,17 +236,9 @@ input[type=reset]:hover {
   .projects .leftProjectsText header h1,
   .contact .leftContactText header h1 {
     font-size: 10vw; }
-  .about .rightAboutText {
-    position: absolute;
-    padding: 50px;
-    padding-right: 250px;
-    max-height: 100vh;
-    width: 60%;
-    margin: auto;
-    overflow-y: scroll; }
   .contact .rightContactText {
-    max-height: 100vh;
-    padding: 250px 50px 0 0;
+    min-height: 100vh;
+    padding: 150px 0px 0 0;
     width: 100%;
     margin: auto; }
   .errorMessage {
@@ -313,9 +305,21 @@ input[type=reset]:hover {
   .projects {
     max-height: 100vh;
     overflow-y: hidden; }
+  .projects .rightProjectsText {
+    position: absolute;
+    padding-right: 99vh;
+    width: 100%;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto; }
   .contact {
     max-height: 100vh;
     overflow-y: hidden; }
+  .contact .rightContactText {
+    max-height: 100vh;
+    padding-top: 30vh;
+    width: 80%;
+    margin: auto; }
   .errorMessage {
     font-size: 2vw; }
   .col-1 {
