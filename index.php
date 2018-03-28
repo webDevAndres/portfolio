@@ -65,20 +65,15 @@ function validateMessage()
         $validForm = false;
       
     } else {
+
           $inMessage = test_input($_POST["message"]);
- 
+              
            // cannot be all spaces
-        if (!preg_match("/^[^-\s][a-zA-Z 0-9\s-]*$/", $inMessage)) {
-            $inMessageErr = "Cannot be all spaces";
+        if (preg_match("/^[^-\s][<>]*$/", $inMessage)) {
+            $inMessageErr = "special characters not allowed";
             $validForm = false;
 
         }
-        if (!preg_match("/^[a-zA-Z 0-9?.,]*$/", $inMessage)) {
-              $inMessageErr = "Only letters,numbers,and white space allowed";
-              $validForm = false;
-
-        }
-        
     }
 }
   
@@ -175,13 +170,7 @@ if ($validForm) {
                     <div class="row">
                         <div class="col-m-12 col-12">
                             <h1>Andres Macias</h1>
-                            <p>Full-stack Web Developer</p>
-                            <p>
-                                <small>HTML &amp; CSS, JavaScript, PHP,</small>
-                            </p>
-                            <p>
-                                <small>Wordpress, Drupal</small>
-                            </p>
+                            <p>Web Developer</p>
                         </div>
                     </div>
                 </header>
@@ -204,7 +193,7 @@ if ($validForm) {
     ---------------------------------------------------- -->
             <section class="about" id="about">
                 <div class="row">
-                    <div class="col-m-6">
+                    <div class="col-m-12 col-6">
                         <section class="leftAboutText">
                             <header>
                                 <h1>About</h1>
@@ -217,7 +206,7 @@ if ($validForm) {
                         </section>
 
                     </div>
-                    <div class="col-m-6">
+                    <div class="col-m-12 col-6">
                         <section class="rightAboutText">
                             <header>
                                 <h1> I am a web developer living in Nebraska.</h1>
@@ -286,7 +275,7 @@ if ($validForm) {
 
             <section class="projects" id="projects">
                 <div class="row">
-                    <div class="col-m-6">
+                    <div class="col-m-12 col-6">
                         <section class="leftProjectsText">
                             <header>
                                 <h1>Projects</h1>
@@ -298,28 +287,35 @@ if ($validForm) {
                             </nav>
                         </section>
                     </div>
-                    <div class="col-m-6">
+                    <div class="col-m-12 col-6">
                         <section class="rightProjectsText" id="rightProjectsText">
                             <div class="projectImages">
-                                <img src="images/formValidation.png" alt="form validation project" width="460" height="145">
+                                <a href="https://andresmonline.com/homework/wdv321/finished_homework/formValidationProject/complaintForm.html">
+                                <img src="images/formValidation.png" alt="form validation project" width="460" height="145"></a>
                             </div>
                             <div class="projectImages">
-                                <img src="images/dynamicRecipe.png" alt="dynamic recipe project" width="460" height="145">
+                                <a href="https://andresmonline.com/homework/wdv321/finished_homework/dynamicRecipeProject/index.html">
+                                <img src="images/dynamicRecipe.png" alt="dynamic recipe project" width="460" height="145"></a>
                             </div>
                             <div class="projectImages">
-                                <img src="images/rentalApplication.png" alt="apartment rental application project" width="460" height="145">
+                                <a href="https://andresmonline.com/homework/wdv321/finished_homework/portfolioProjectAdvancedJavascript/index.html">
+                                <img src="images/rentalApplication.png" alt="apartment rental application project" width="460" height="145"></a>
                             </div>
                             <div class="projectImages">
-                                <img src="images/contactFormWithEmail.png" alt="contact form with email project" width="460" height="145">
+                                <a href="https://andresmonline.com/homework/wdv341/finished_homework/phpContactFormWithDatabaseUpdate/contactForm.php">
+                                <img src="images/contactFormWithEmail.png" alt="contact form with email project and database" width="460" height="145"></a>
                             </div>
                             <div class="projectImages">
-                                <img src="images/hairSalon.png" alt="" width="460" height="145">
+                                <a href="https://andresmonline.com/homework/wdv341/finished_homework/PortfolioProjectPHP/index.php">
+                                <img src="images/hairSalon.png" alt="" width="460" height="145"></a>
                             </div>
                             <div class="projectImages">
-                                <img src="images/sweetbuffetchocolates.png" alt="" width="460" height="145">
+                                <a href="http://www.andresmonline.com/wdv240/project3/">
+                                <img src="images/sweetbuffetchocolates.png" alt="wordpress chocolate store project" width="460" height="145"></a>
                             </div>
                             <div class="projectImages">
-                                <img src="images/faithMissionaryBaptistChurch.png" alt="" width="800" height="500">
+                                <a href="http://www.andresmonline.com/wdv240/final-project/">
+                                <img src="images/faithMissionaryBaptistChurch.png" alt="wordpress fath missionary baptist church project" width="800" height="500"></a>
                             </div>
                         </section>
                     </div>
@@ -332,7 +328,7 @@ if ($validForm) {
 
             <section class="contact" id="contact">
                 <div class="row">
-                    <div class="col-m-6">
+                    <div class="col-m-12 col-6">
                         <section class="leftContactText">
                             <header>
                                 <h1>Contact</h1>
@@ -344,7 +340,7 @@ if ($validForm) {
                             </nav>
                         </section>
                     </div>
-                    <div class="col-m-6">
+                    <div class="col-m-12 col-6">
                     <?php if ($validForm == false) { 
                                         echo $errorMessage; 
                                     }?>
@@ -353,10 +349,10 @@ if ($validForm) {
                             <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="POST">
                                 <div class="row">
                                    
-                                    <div class="col-m-4 col-4">
+                                    <div class="col-m-2 col-2">
                                         <label for="name">Name:</label>
                                     </div>
-                                    <div class="col-m-8 col-4">
+                                    <div class="col-m-8 col-8">
                                         <span class="error">
                                             <?php echo "$inNameErr" ?>
                                         </span>
@@ -364,10 +360,10 @@ if ($validForm) {
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-m-4 col-4">
+                                    <div class="col-m-2 col-2">
                                         <label for="email">Email:</label>
                                     </div>
-                                    <div class="col-m-8 col-4">
+                                    <div class="col-m-8 col-8">
                                         <span class="error">
                                             <?php echo "$inEmailErr" ?>
                                         </span>
@@ -375,11 +371,11 @@ if ($validForm) {
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-m-4 col-4">
+                                    <div class="col-m-2 col-2">
                                         <label for="message">Message:</label>
                                     </div>
 
-                                    <div class="col-m-8 col-4">
+                                    <div class="col-m-8 col-8">
                                         <span class="error">
                                             <?php echo "$inMessageErr" ?>
                                         </span>
@@ -399,10 +395,10 @@ if ($validForm) {
                             </form>
                             <section class="socialMediaIcons">
                             <span>
-                            <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
+                            <a href="https://www.linkedin.com/in/andres-macias-291a70157/"><i class="fab fa-linkedin fa-3x"></i></a>
                             </span>
                             <span>
-                            <a href="#"><i class="fab fa-github fa-3x"></i></a>
+                            <a href="https://github.com/webDevAndres"><i class="fab fa-github fa-3x"></i></a>
                             </span>
                             
                             </section>
