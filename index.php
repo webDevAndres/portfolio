@@ -281,6 +281,11 @@ if ($validForm) {
                                 <h1>Projects</h1>
                             </header>
                             <nav class='navLinks'>
+                               <button id="project1">JavaScript Form Validation</button> /
+                                <button id="project2">apartment rental application</button> /
+                                <button id="project3">Php contact form with email</button>
+                            </nav>
+                            <nav class='navLinks'>
                                 <a href="#about">About</a> /
                                 <a href="#projects">Projects</a> /
                                 <a href="#contact">Contact</a>
@@ -289,18 +294,13 @@ if ($validForm) {
                     </div>
                     <div class="col-m-12 col-6">
                         <section class="rightProjectsText" id="rightProjectsText">
-                            <div class="projectImages">
-                                <a href="https://andresmonline.com/homework/wdv321/finished_homework/formValidationProject/complaintForm.html">
-                                <img src="images/formValidation.png" alt="form validation project" width="460" height="145"></a>
-                            </div>
-                            <div class="projectImages">
-                                <a href="https://andresmonline.com/homework/wdv321/finished_homework/dynamicRecipeProject/index.html">
-                                <img src="images/dynamicRecipe.png" alt="dynamic recipe project" width="460" height="145"></a>
-                            </div>
-                            <div class="projectImages">
-                                <a href="https://andresmonline.com/homework/wdv321/finished_homework/portfolioProjectAdvancedJavascript/index.html">
-                                <img src="images/rentalApplication.png" alt="apartment rental application project" width="460" height="145"></a>
-                            </div>
+                        <div class="overlay"> 
+                            <div id="loadProjectInfo"></div>
+                        </div>
+                             <div id="loadData"></div>
+                            
+                            <!--
+                           
                             <div class="projectImages">
                                 <a href="https://andresmonline.com/homework/wdv341/finished_homework/phpContactFormWithDatabaseUpdate/contactForm.php">
                                 <img src="images/contactFormWithEmail.png" alt="contact form with email project and database" width="460" height="145"></a>
@@ -316,7 +316,7 @@ if ($validForm) {
                             <div class="projectImages">
                                 <a href="http://www.andresmonline.com/wdv240/final-project/">
                                 <img src="images/faithMissionaryBaptistChurch.png" alt="wordpress fath missionary baptist church project" width="800" height="500"></a>
-                            </div>
+                            </div> -->
                         </section>
                     </div>
                 </div>
