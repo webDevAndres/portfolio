@@ -32,3 +32,24 @@ $(document).ready(function () {
         } // End if
     });
 });
+
+$(document).ready(function(){
+    $("#project1").click(function(){
+        $("#loadData").load("projects/javascriptFormValidation.txt");
+        $("#loadProjectInfo").load("projects/javascriptFormValidationInfo.txt");
+    });
+});
+
+$(document).ready(function(){
+    $("#project2").click(function(){
+        $("#loadData").load("projects/dynamicRecipe.txt");
+        $("#loadProjectInfo").load("projects/dynamicRecipeInfo.txt");
+    });
+});
+
+$(document).ready(function(){
+    $("#project3").click(function(){
+        $("#loadData").load("projects/rentalApplication.txt");
+        $("#loadProjectInfo").load("projects/rentalApplicationInfo.txt");
+    });
+});
