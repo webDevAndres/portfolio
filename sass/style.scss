@@ -1,0 +1,447 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 4vw;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 2px;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+/**************************   
+NAVBAR and HEADER STYLES
+****************************/
+
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+  background-color: #173774;
+  color: #ffffff;
+}
+
+/* Add an active class to highlight the current page */
+
+.active {
+  border-bottom: 5px solid rgba(34, 165, 197, 0.774);
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+  display: none;
+}
+
+.headerContent {
+  background-color: #106bd4;
+  color: white;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+/************************
+  IMG STYLES
+************************/
+
+/* style the avatar image*/
+
+.personAvatar,
+header {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  padding: 15px;
+  border: 1px solid #dbdbdb;
+}
+
+/* style the project images*/
+
+.projectImages img {
+  width: 100%;
+  min-height: 100vh;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/***************************
+Container, body, html styles
+****************************/
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/****************************
+ABOUT, PROJECTS, CONTACT SECTION STYLES
+*******************************/
+
+.about .leftAboutText {
+  background-color: rgb(245, 91, 91);
+  min-height: 100vh;
+  text-align: center;
+}
+
+.about .leftAboutText header h1,
+.projects .leftProjectsText header h1,
+.contact .leftContactText header h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 15vw;
+  padding: 40vh 0 0 0;
+  text-align: center;
+}
+
+.about .row,
+.about .row .col-m-6,
+.projects .row,
+.projects .row .col-m-6,
+.contact .row,
+.contact .row .col-m-6 {
+  padding: 0;
+  margin: 0;
+}
+
+.about .rightAboutText {
+  min-height: 100vh;
+  padding: 25px;
+  width: 80%;
+  margin: auto;
+  overflow-y: scroll;
+}
+
+.projects .leftProjectsText {
+  min-height: 100vh;
+  text-align: center;
+}
+
+.projects .rightProjectsText {
+  overflow-y: auto;
+  max-height: 100vh;
+}
+
+.contact .leftContactText {
+  background-color: #f7f700b4;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.contact .rightContactText {
+  max-height: 100vh;
+  padding: 25px 0;
+  width: 80%;
+  margin: auto;
+}
+
+/************************
+  CONTACT FORM STYLES
+  ************************/
+
+input[type=text],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+input[type=text]:focus,
+textarea:focus {
+  border: 3px solid #add8e6;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+textarea {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  overflow: hidden;
+}
+
+.error {
+  color: red;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*****************************
+WORK ON ERROR MESSAGE and when the form is submitted display bottom of page
+******************************/
+.errorMessage {
+  color: red;
+text-align:center;
+}
+
+.submitButtons {
+  text-align: center;
+}
+
+input[type=submit],
+input[type=reset] {
+  background-color: #4c6faf;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 15%;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+  background-color: #2d88a7;
+}
+
+.socialMediaIcons {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.socialMediaIcons span {
+  padding-left: 20px;
+}
+
+/* linkedin */
+
+.fa-linkedin {
+  color: #55ACEE;
+}
+
+.fa-linkedin:active {
+  color: hsl(0, 100%, 50%);
+}
+
+/*************************************** 
+      MEDIA QUERIES 
+      ******************************************/
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  label {
+    float: right;
+  }
+  * {
+    font-size: 2vw;
+  }
+  .about .leftAboutText header h1,
+  .projects .leftProjectsText header h1,
+  .contact .leftContactText header h1 {
+    font-size: 10vw;
+  }
+
+  .about .rightAboutText {
+    position: absolute;
+    padding: 50px;
+    padding-right: 250px;
+    max-height: 100vh;
+    width: 60%;
+    margin: auto;
+    overflow-y: scroll;
+  }
+  .contact .rightContactText {
+    max-height: 100vh;
+    padding: 250px 50px 0 0;
+    width: 100%;
+    margin: auto;
+  }
+  .errorMessage {
+   font-size: 3vw;
+  }
+  .col-m-1 {
+    width: 8.33%;
+  }
+  .col-m-2 {
+    width: 16.66%;
+  }
+  .col-m-3 {
+    width: 25%;
+  }
+  .col-m-4 {
+    width: 33.33%;
+  }
+  .col-m-5 {
+    width: 41.66%;
+  }
+  .col-m-6 {
+    width: 50%;
+  }
+  .col-m-7 {
+    width: 58.33%;
+  }
+  .col-m-8 {
+    width: 66.66%;
+  }
+  .col-m-9 {
+    width: 75%;
+  }
+  .col-m-10 {
+    width: 83.33%;
+  }
+  .col-m-11 {
+    width: 91.66%;
+  }
+  .col-m-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  /* For desktop: */
+  * {
+    font-size: 1vw;
+  }
+  /* style the navbar for desktop*/
+  .topnav {
+    float: right;
+  }
+  .topnav a {
+    border-right: 1px solid #ffffff;
+  }
+  .topnav a:last-child {
+    border-right: none;
+  }
+  /*style the avatar image for desktop*/
+  .personAvatar {
+    display: none;
+  }
+  header {
+    text-align: left;
+  }
+  .about img {
+    display: inline-block;
+  }
+  .about {
+    max-height: 100vh;
+    overflow-y: hidden;
+  }
+  .about .leftAboutText header h1,
+  .projects .leftProjectsText header h1,
+  .contact .leftContactText header h1 {
+    font-size: 7vw;
+    padding: 30vh 0 0 0;
+  }
+  .about .rightAboutText {
+    position: absolute;
+    padding: 50px;
+    padding-right: 10vw;
+    max-height: 100vh;
+    width: 60%;
+    margin: auto;
+    overflow-y: scroll;
+  }
+  .projects {
+    max-height: 100vh;
+    overflow-y: hidden;
+  }
+  .contact {
+    max-height: 100vh;
+    overflow-y: hidden;
+  }
+
+  .errorMessage {
+    font-size: 2vw;
+   }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
