@@ -1,0 +1,17 @@
+<aside>
+<h1>Dynamic Recipe Project</h1>
+<br>
+<h2>Skills used:</h2>
+<ul>
+    <li>Javascript</li>
+    <li>Cookies</li>
+    <li>CSS</li>
+    <li>google analytics</li>
+</ul>
+<br>
+<h2>Project Link</h2>
+<p><a href=""></a></p>
+<br>
+<h2>Code on Github</h2>
+<p><a href=""></a></p>
+</aside>
