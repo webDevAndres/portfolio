@@ -281,9 +281,9 @@ if ($validForm) {
                                 <h1>Projects</h1>
                             </header>
                             <nav class='navLinks'>
-                               <button id="project1">JavaScript Form Validation</button> /
-                                <button id="project2">apartment rental application</button> /
-                                <button id="project3">Php contact form with email</button>
+                               <button id="project1">JavaScript form validation project</button> /
+                                <button id="project2">Dynamic recipe project</button> /
+                                <button id="project3">Rental application project</button>
                             </nav>
                             <nav class='navLinks'>
                                 <a href="#about">About</a> /
