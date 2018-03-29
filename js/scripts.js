@@ -36,20 +36,20 @@ $(document).ready(function () {
 $(document).ready(function(){
     $("#project1").click(function(){
         $("#loadData").load("projects/javascriptFormValidation.txt");
-        $("#loadProjectInfo").load("projects/javascriptFormValidationInfo.txt");
+        $("#loadProjectInfo").load("projects/javascriptFormValidationInfo.txt?t=" + Math.random());
     });
 });
 
 $(document).ready(function(){
     $("#project2").click(function(){
         $("#loadData").load("projects/dynamicRecipe.txt");
-        $("#loadProjectInfo").load("projects/dynamicRecipeInfo.txt");
+        $("#loadProjectInfo").load("projects/dynamicRecipeInfo.txt?t=" + Math.random());
     });
 });
 
 $(document).ready(function(){
     $("#project3").click(function(){
         $("#loadData").load("projects/rentalApplication.txt");
-        $("#loadProjectInfo").load("projects/rentalApplicationInfo.txt");
+        $("#loadProjectInfo").load("projects/rentalApplicationInfo.txt?t=" + Math.random());
     });
 });
