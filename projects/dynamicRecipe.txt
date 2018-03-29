@@ -1,4 +1,4 @@
 <div class="projectImages">
-                                <a href="https://andresmonline.com/homework/wdv321/finished_homework/dynamicRecipeProject/index.html">
-                                <img src="images/dynamicRecipe.png" alt="dynamic recipe project" width="460" height="145"></a>
-                            </div>
+
+<img src="images/dynamicRecipe.png" alt="dynamic recipe project" width="460" height="145">
+</div>

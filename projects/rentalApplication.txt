@@ -1,4 +1,3 @@
- <div class="projectImages">
-                                <a href="https://andresmonline.com/homework/wdv321/finished_homework/portfolioProjectAdvancedJavascript/index.html">
-                                <img src="images/rentalApplication.png" alt="apartment rental application project" width="460" height="145"></a>
-                            </div>
+<div class="projectImages">
+<img src="images/rentalApplication.png" alt="apartment rental application project" width="460" height="145">
+</div>
