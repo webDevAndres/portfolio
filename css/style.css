@@ -61,7 +61,7 @@ NAVBAR and HEADER STYLES
 header {
   text-align: center; }
 
-img {
+.personAvatar img {
   max-width: 100%;
   height: auto;
   padding: 15px;
@@ -72,7 +72,30 @@ img {
   width: 100%;
   min-height: 100vh;
   -o-object-fit: cover;
-  object-fit: cover; }
+  object-fit: cover;
+  opacity: 0.1;
+  -webkit-animation-name: example;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {
+    opacity: 0.1; }
+  to {
+    opacity: .1; } }
+
+/* Standard syntax */
+@keyframes example {
+  from {
+    opacity: 0.1; }
+  to {
+    opacity: 1; } }
 
 /***************************
 Container, body, html styles
@@ -92,7 +115,7 @@ html {
   overflow-y: auto; }
 
 ul {
-  padding-left: 20px; }
+  list-style: inside; }
 
 /****************************
 ABOUT, PROJECTS, CONTACT SECTION STYLES
@@ -104,7 +127,7 @@ ABOUT, PROJECTS, CONTACT SECTION STYLES
 
 .about .leftAboutText header h1,
 .projects .leftProjectsText header h1,
-.contact .leftContactText header h1 {
+.contact .leftContactText header h1, .rightProjectsText h1 {
   font-family: 'Indie Flower', cursive;
   font-size: 15vw;
   padding: 40vh 0 0 0;
@@ -131,6 +154,12 @@ ABOUT, PROJECTS, CONTACT SECTION STYLES
 
 .projects .rightProjectsText {
   min-height: 100vh; }
+
+.rightProjectsText h1, p li {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2vw;
+  padding: 20vh 0 0 0;
+  text-align: center; }
 
 .contact .leftContactText {
   background-color: #f7f700b4;
@@ -320,7 +349,9 @@ input[type=reset]:hover {
     overflow: hidden;
     width: 0;
     height: 100%;
-    transition: .5s ease; }
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    z-index: 1; }
   .rightProjectsText:hover .overlay {
     width: 100%;
     left: 0; }
