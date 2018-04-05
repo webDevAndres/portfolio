@@ -1,20 +1,35 @@
-<aside>
-<h1>Dynamic Recipe Project</h1>
-<br>
-<h2>Description:</h2>
-<p>This project required demonstrating the use of radio buttons, check boxes or a dropdown to display different options for each recipe.</p>
-<br>
-<h2>Skills used:</h2>
-<ul>
-    <li>Javascript</li>
-    <li>Cookies</li>
-    <li>CSS</li>
-    <li>google analyticssfsdfs</li>
-</ul>
-<br>
-<h2>Project Link</h2>
-<p>        <a href="https://andresmonline.com/homework/wdv321/finished_homework/formValidationProject/complaintForm.html">JavaScript form validation project</a></p>
-<br>
-<h2>Code on Github</h2>
-<p><a href=""></a></p>
-</aside>
+<div class="projectImages">
+    <div class="row">
+        <div class="col-m-10 col-10">
+            <h1>JavaScript form validation</h1>
+            <img src="images/formValidation.png" alt="form validation project" width="460" height="145">
+        </div>
+        <div class="col-m-2 col-2">
+            <h2>Skills used:</h2>
+            <ul>
+                <li>Javascript</li>
+                <li>regular expressions</li>
+                <li>CSS</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-m-10 col-10">
+        <aside>
+            <h2>Description:</h2>
+            <p>This project taught me about using regular expressions to validate form data.</p>
+            <br>
+            <p>
+                <a href="https://www.andresmonline.com/homework/wdv321/finished_homework/formValidationProject/complaintForm.html" target="_blank">
+                    <button class="button projectButtonStyle1">Visit site</button>
+                </a>
+            </p>
+            <p>
+                <a href="https://github.com/webDevAndres/Form-validation-project" target="_blank" rel="noopener">
+                    <button class="button projectButtonStyle1">View code</button>
+                </a>
+            </p>
+        </aside>
+    </div>
+</div>
