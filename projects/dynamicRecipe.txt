@@ -1,4 +1,0 @@
-<div class="projectImages">
-
-<img src="images/dynamicRecipe.png" alt="dynamic recipe project" width="460" height="145">
-</div>
