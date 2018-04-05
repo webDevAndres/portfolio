@@ -1,20 +1,37 @@
-<aside>
-<h1>Dynamic Recipe Project</h1>
-<br>
-<h2>Description:</h2>
-<p>This project required demonstrating the use of radio buttons, check boxes or a dropdown to display different options for each recipe.</p>
-<br>
-<h2>Skills used:</h2>
-<ul>
-    <li>Javascript</li>
-    <li>Cookies</li>
-    <li>CSS</li>
-    <li>google analyticssfsdfs</li>
-</ul>
-<br>
-<h2>Project Link</h2>
-<p><a href="https://andresmonline.com/homework/wdv321/finished_homework/dynamicRecipeProject/index.html">Dynamic recipe project</a></p>
-<br>
-<h2>Code on Github</h2>
-<p><a href=""></a></p>
-</aside>
+<div class="projectImages">
+    <div class="row">
+        <div class="col-m-10 col-10">
+            <h1>Dynamic Recipe Project</h1>
+            <img src="images/dynamicRecipe.png" alt="dynamic recipe project" width="460" ;height="145">
+        </div>
+        <div class="col-m-2 col-2">
+            <h2>Skills used:</h2>
+            <ul>
+                <li>Javascript</li>
+                <li>Bootstrap</li>
+                <li>CSS</li>
+                <li>google analytics</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-m-10 col-10">
+        <aside>
+            <h2>Description:</h2>
+            <p>This project required demonstrating the use of radio buttons, check boxes or a dropdown to display different
+                options for each recipe.</p>
+            <br>
+            <p>
+                <a href="https://www.andresmonline.com/homework/wdv321/finished_homework/dynamicRecipeProject/index.html" target="_blank">
+                    <button class="button projectButtonStyle1">Visit site</button>
+                </a>
+            </p>
+              <p>
+                <a href="https://github.com/webDevAndres/Dynamic-recipe-project" target="_blank" rel="noopener">
+                    <button class="button projectButtonStyle1">View code</button>
+                </a>
+            </p>
+        </aside>
+    </div>
+</div>
