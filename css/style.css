@@ -20,6 +20,23 @@
 /**************************   
 NAVBAR and HEADER STYLES
 ****************************/
+#backToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 5vw;
+  border: none;
+  outline: none;
+  background-color: rgba(4, 124, 4, 0.643);
+  color: white;
+  cursor: pointer;
+  padding: 15px 5px; }
+
+#backToTop:hover {
+  background-color: rgba(240, 156, 0, 0.761); }
+
 .topnav {
   overflow: hidden; }
 
@@ -51,71 +68,36 @@ NAVBAR and HEADER STYLES
   background-color: #106bd4;
   color: white;
   padding-top: 15px;
-  padding-left: 15px; }
+  padding-left: 15px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0; }
 
 /************************
   IMG STYLES
 ************************/
 /* style the avatar image*/
-.personAvatar,
-header {
-  text-align: center; }
-
 .personAvatar img {
   max-width: 100%;
   height: auto;
-  padding: 15px;
-  border: 1px solid #dbdbdb; }
-
-/* style the project images*/
-.projectImages img {
-  width: 100%;
-  min-height: 100vh;
-  -o-object-fit: cover;
-  object-fit: cover;
-  opacity: 0.1;
-  -webkit-animation-name: example;
-  /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 4s;
-  /* Safari 4.0 - 8.0 */
-  animation-name: example;
-  animation-duration: 4s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards; }
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
-  from {
-    opacity: 0.1; }
-  to {
-    opacity: .1; } }
-
-/* Standard syntax */
-@keyframes example {
-  from {
-    opacity: 0.1; }
-  to {
-    opacity: 1; } }
+  border: 1px solid #ddd;
+  border-radius: 100% 100% 5px;
+  padding: 5px; }
 
 /***************************
 Container, body, html styles
 ****************************/
 .container {
   width: 100%;
-  min-height: 100vh; }
+  margin-top: 7.3vw;
+  min-height: 100vh;
+  overflow-x: hidden; }
 
 body {
-  font-family: "Lucida Sans", sans-serif; }
-
-body,
-html {
-  height: 100%;
   position: relative;
-  overflow-x: hidden;
-  overflow-y: auto; }
-
-ul {
-  list-style: inside; }
+  height: 100%;
+  font-family: "Lucida Sans", sans-serif; }
 
 /****************************
 ABOUT, PROJECTS, CONTACT SECTION STYLES
@@ -127,50 +109,183 @@ ABOUT, PROJECTS, CONTACT SECTION STYLES
 
 .about .leftAboutText header h1,
 .projects .leftProjectsText header h1,
-.contact .leftContactText header h1, .rightProjectsText h1 {
+.contact .leftContactText header h1,
+.rightProjectsText h1 {
   font-family: 'Indie Flower', cursive;
   font-size: 15vw;
   padding: 40vh 0 0 0;
   text-align: center; }
 
-.about .row,
-.about .row .col-m-6,
-.projects .row,
-.projects .row .col-m-6,
-.contact .row,
-.contact .row .col-m-6 {
+.about > .row > .col-m-12,
+.projects > .row > .col-m-12,
+.contact > .row > .col-m-12 {
   padding: 0;
   margin: 0; }
 
 .about .rightAboutText {
   min-height: 100vh;
-  padding-top: 20px;
   width: 80%;
+  padding-bottom: 20px;
   margin: auto; }
 
-.projects .leftProjectsText {
+.rightAboutText h2,
+.rightAboutText h1 {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+.leftProjectsText,
+.rightProjectsText {
   min-height: 100vh;
   text-align: center; }
 
-.projects .rightProjectsText {
-  min-height: 100vh; }
+.leftProjectsText {
+  background-color: #106bd4; }
 
-.rightProjectsText h1, p li {
-  font-family: 'Indie Flower', cursive;
-  font-size: 2vw;
-  padding: 20vh 0 0 0;
-  text-align: center; }
+ul li {
+  list-style-type: none; }
+
+.projectsButtons {
+  padding-top: 30vh; }
+
+.button {
+  width: 30%;
+  background-color: white;
+  border: none;
+  color: #e00b0b;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding-right: 2px;
+  padding-left: 2px;
+  font-size: 3vw;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer; }
+
+.projectButtonStyle1 {
+  color: black;
+  border: 4px solid rgba(4, 124, 4, 0.643); }
+
+.projectButtonStyle1:hover {
+  background-color: rgba(4, 124, 4, 0.643); }
+
+.projectButtonStyle2 {
+  color: black;
+  border: 4px solid rgba(240, 156, 0, 0.761); }
+
+.projectButtonStyle2:hover {
+  background-color: rgba(240, 156, 0, 0.761);
+  color: white; }
+
+.projectButtonStyle3 {
+  color: black;
+  border: 4px solid rgba(236, 79, 236, 0.796); }
+
+.projectButtonStyle3:hover {
+  background-color: rgba(236, 79, 236, 0.796);
+  color: white; }
 
 .contact .leftContactText {
-  background-color: #f7f700b4;
+  background-color: rgba(247, 247, 0, 0.706);
   min-height: 100vh;
   text-align: center; }
 
 .contact .rightContactText {
-  max-height: 100vh;
+  min-height: 100vh;
   padding: 25px 0;
   width: 80%;
   margin: auto; }
+
+.footer {
+  width: 100%;
+  background-color: #106bd4;
+  min-height: 100px;
+  padding-top: 7vh;
+  padding-left: 30px;
+  overflow: hidden;
+  clear: both; }
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: hidden;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */ }
+
+/* Modal Content (image) */
+.modal .projectImages img {
+  width: 100%;
+  height: auto; }
+
+/* Caption of Modal Image */
+#modalContent {
+  margin: auto;
+  display: block;
+  width: 90%;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px; }
+
+/* Add Animation */
+.modal {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s; }
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0); }
+  to {
+    -webkit-transform: scale(1); } }
+
+@keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+    transform: scale(0); }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer; }
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%; } }
 
 /************************
   CONTACT FORM STYLES
@@ -211,23 +326,21 @@ WORK ON ERROR MESSAGE and when the form is submitted display bottom of page
 .submitButtons {
   text-align: center; }
 
-input[type=submit],
-input[type=reset] {
+.btnForm {
   background-color: #4c6faf;
   color: white;
   padding: 12px 20px;
-  border-radius: 15%; }
+  border-radius: 15px; }
 
-input[type=submit]:hover,
-input[type=reset]:hover {
-  background-color: #2d88a7; }
+.btnForm:hover {
+  background-color: #106bd4; }
 
 .socialMediaIcons {
   padding-top: 50px;
   padding-right: 25px;
   text-align: center; }
 
-.socialMediaIcons span {
+.socialMediaIcons a {
   padding-left: 20px; }
 
 /* linkedin */
@@ -235,7 +348,13 @@ input[type=reset]:hover {
   color: #55ACEE; }
 
 .fa-linkedin:active {
-  color: red; }
+  color: #106bd4; }
+
+.fa-github {
+  color: black; }
+
+.fa-github:active {
+  color: #106bd4; }
 
 /*************************************** 
       MEDIA QUERIES 
@@ -259,19 +378,27 @@ input[type=reset]:hover {
 
 @media only screen and (min-width: 600px) and (orientation: portrait) {
   /* For tablets: */
-  label {
-    float: right; }
   * {
+    font-size: 2vw; }
+  .topnav {
+    float: right; }
+  .topnav a {
+    border-right: 1px solid #ffffff; }
+  .topnav a:nth-child(4) {
+    border-right: none; }
+  #backToTop {
     font-size: 2vw; }
   .about .leftAboutText header h1,
   .projects .leftProjectsText header h1,
   .contact .leftContactText header h1 {
-    font-size: 10vw; }
+    font-size: 15vw; }
   .contact .rightContactText {
     min-height: 100vh;
     padding: 150px 0px 0 0;
     width: 100%;
     margin: auto; }
+  label {
+    float: right; }
   .errorMessage {
     font-size: 3vw; }
   .col-m-1 {
@@ -302,62 +429,71 @@ input[type=reset]:hover {
 @media only screen and (min-width: 768px) and (orientation: landscape) {
   /* For desktop: */
   * {
-    font-size: .9vw; }
+    font-size: 1vw; }
+  #backToTop {
+    font-size: 1.5vw; }
   /* style the navbar for desktop*/
   .topnav {
     float: right; }
   .topnav a {
     border-right: 1px solid #ffffff; }
-  .topnav a:last-child {
+  .topnav a:nth-child(4) {
     border-right: none; }
   /*style the avatar image for desktop*/
-  .personAvatar {
-    display: none; }
-  header {
-    text-align: left; }
-  .about img {
-    display: inline-block; }
+  .headerContent header h1,
+  .headerContent header p {
+    text-align: left;
+    font-size: 1.5vw; }
+  .headerContent {
+    z-index: 99; }
   .about {
-    max-height: 100vh;
-    overflow-y: hidden; }
+    max-height: 100vh; }
   .about .leftAboutText header h1,
   .projects .leftProjectsText header h1,
   .contact .leftContactText header h1 {
     font-size: 7vw;
     padding: 30vh 0 0 0; }
   .about .rightAboutText {
+    max-height: 100vh;
+    overflow: hidden; }
+  .leftProjectsText {
+    background-color: white;
+    position: relative; }
+  .rightProjectsText {
+    background-color: #106bd4; }
+  .modal {
     position: absolute;
-    padding: 20px 20vw 0 50px;
-    max-height: 100vh;
-    width: 60%;
-    margin: auto;
-    overflow-y: hidden; }
-  .projects {
-    max-height: 100vh;
-    overflow-y: hidden; }
-  .projects .rightProjectsText {
-    position: relative;
-    max-height: 100vh;
-    overflow-x: hidden;
-    overflow-y: hidden; }
-  .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 100%;
-    right: 0;
-    background-color: rgba(0, 139, 186, 0.938);
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    -webkit-transition: .5s ease;
-    transition: .5s ease;
-    z-index: 1; }
-  .rightProjectsText:hover .overlay {
+    min-height: 100vh; }
+  .button {
+    width: 20%;
+    font-size: 1vw; }
+  /* style the project images*/
+  .projectImages img {
     width: 100%;
-    left: 0; }
+    height: auto;
+    opacity: 0.1;
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; }
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes example {
+    from {
+      opacity: 0.1; }
+    to {
+      opacity: .1; } }
+  /* Standard syntax */
+  @keyframes example {
+    from {
+      opacity: 0.1; }
+    to {
+      opacity: 1; } }
   .contact {
-    max-height: 100vh;
-    overflow-y: hidden; }
+    max-height: 100vh; }
   .contact .rightContactText {
     max-height: 100vh;
     padding-top: 30vh;
