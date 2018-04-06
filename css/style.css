@@ -5,6 +5,11 @@
   padding: 0;
   font-size: 4vw; }
 
+.btnForm {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
 .row::after {
   content: "";
   clear: both;
@@ -126,10 +131,10 @@ ABOUT, PROJECTS, CONTACT SECTION STYLES
   min-height: 100vh;
   width: 80%;
   padding-bottom: 20px;
-  margin: auto; }
+  margin: auto;
+  padding-top: 20px; }
 
-.rightAboutText h2,
-.rightAboutText h1 {
+.rightAboutText h2 {
   margin-top: 20px;
   margin-bottom: 10px; }
 
@@ -141,8 +146,13 @@ ABOUT, PROJECTS, CONTACT SECTION STYLES
 .leftProjectsText {
   background-color: #106bd4; }
 
-ul li {
-  list-style-type: none; }
+ul {
+  list-style-position: inside; }
+
+.projects ul {
+  list-style-type: none;
+  text-align: left;
+  padding-left: 10px; }
 
 .projectsButtons {
   padding-top: 30vh; }
@@ -384,7 +394,7 @@ WORK ON ERROR MESSAGE and when the form is submitted display bottom of page
     float: right; }
   .topnav a {
     border-right: 1px solid #ffffff; }
-  .topnav a:nth-child(4) {
+  .topnav a:nth-child(5) {
     border-right: none; }
   #backToTop {
     font-size: 2vw; }
@@ -437,7 +447,7 @@ WORK ON ERROR MESSAGE and when the form is submitted display bottom of page
     float: right; }
   .topnav a {
     border-right: 1px solid #ffffff; }
-  .topnav a:nth-child(4) {
+  .topnav a:nth-child(5) {
     border-right: none; }
   /*style the avatar image for desktop*/
   .headerContent header h1,
