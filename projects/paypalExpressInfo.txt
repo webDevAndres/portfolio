@@ -26,8 +26,8 @@
                 </a>
             </p>
              <p>
-                <a href="https://github.com/webDevAndres/Paypal" target="_blank">
-                    <button class="button projectButtonStyle1">Visit site</button>
+                <a href="https://github.com/webDevAndres/Paypal" target="_blank" rel="noopener">
+                    <button class="button projectButtonStyle1">View code</button>
                 </a>
             </p>
         </aside>

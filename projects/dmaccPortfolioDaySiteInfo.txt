@@ -31,7 +31,7 @@
                 </a>
             </p>
               <p>
-                <a href="https://github.com/loganada/portfolioDay" target="_blank" rel="noopener">
+                <a href="https://github.com/webDevAndres/portfolioDay" target="_blank" rel="noopener">
                     <button class="button projectButtonStyle1">View code</button>
                 </a>
             </p>

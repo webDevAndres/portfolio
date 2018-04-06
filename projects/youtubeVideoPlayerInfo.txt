@@ -28,7 +28,7 @@
             </p>
               <p>
                 <a href="https://github.com/webDevAndres/videoplayers" target="_blank" rel="noopener">
-                    <button class="button projectButtonStyle1">Visit site</button>
+                    <button class="button projectButtonStyle1">View code</button>
                 </a>
             </p>
         </aside>
