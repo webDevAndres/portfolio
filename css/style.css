@@ -132,7 +132,7 @@ ABOUT, PROJECTS, CONTACT SECTION STYLES
   width: 80%;
   padding-bottom: 20px;
   margin: auto;
-  padding-top: 20px; }
+  padding-top: 50px; }
 
 .rightAboutText h2 {
   margin-top: 20px;
@@ -154,21 +154,15 @@ ul {
   text-align: left;
   padding-left: 10px; }
 
-.projectsButtons {
-  padding-top: 30vh; }
-
-.button {
-  width: 30%;
+.projectButton {
+  width: 100%;
+  min-height: 100%;
+  padding: 10%;
   background-color: white;
   border: none;
-  color: #e00b0b;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  padding-right: 2px;
-  padding-left: 2px;
   font-size: 3vw;
-  margin: 4px 2px;
   -webkit-transition-duration: 0.4s;
   /* Safari */
   transition-duration: 0.4s;
@@ -471,11 +465,13 @@ WORK ON ERROR MESSAGE and when the form is submitted display bottom of page
     position: relative; }
   .rightProjectsText {
     background-color: #106bd4; }
+  .projectsButtonSection {
+    padding-top: 30vh; }
   .modal {
     position: absolute;
     min-height: 100vh; }
-  .button {
-    width: 20%;
+  .projectButton {
+    width: 100%;
     font-size: 1vw; }
   /* style the project images*/
   .projectImages img {
