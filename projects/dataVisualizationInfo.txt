@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-m10 col-10">
             <h1>Data visualziation D3 example</h1>
-            <img src="images/dataVisualization.PNG" alt="D3 project" width="460" height="145">
+            <img src="images/dataVisualization.jpg" alt="D3 project" width="460" height="145">
         </div>
 
         <div class="col-m-2 col-2">

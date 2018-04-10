@@ -3,17 +3,18 @@
         <div class="col-m10 col-10">
             <h1>DMACC portfolio day site</h1>
             <h2 style="color:red;">LIVE SITE</h2>
-            <img src="images/dmaccPortfolioDaySite.PNG" alt="dmacc portfolio day site" width="460" height="145">
+            <img src="images/dmaccPortfolioDaySite.jpg" alt="dmacc portfolio day site" width="460" height="145">
         </div>
 
         <div class="col-m-2 col-2">
             <h2>Skills used:</h2>
             <ul>
-                <li>bootstrap</li>
+                <li>Bootstrap</li>
                 <li>PHP<li>
                 <li>JavaScript</p>
-                <li>MYSQL</li>
-                <li>slack</li>
+                <li>SQL</li>
+                <li>Teamwork</li>
+                <li>Slack</li>
             </ul>
         </div>
     </div>

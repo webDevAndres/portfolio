@@ -2,14 +2,14 @@
     <div class="row">
         <div class="col-m-10 col-10">
             <h1>Rental Application</h1>
-            <img src="images/rentalApplication.png" alt="apartment rental application project" width="460" height="145">
+            <img src="images/rentalApplication.jpg" alt="apartment rental application project" width="460" height="145">
         </div>
         <div class="col-m-2 col-2">
             <h2>Skills used:</h2>
             <ul>
                 <li>Javascript</li>
                 <li>jQuery</li>
-                <li>JQuery UI</li>
+                <li>CSS</li>
             </ul>
         </div>
     </div>
@@ -18,7 +18,7 @@
     <div class="col-m-10 col-10">
         <aside>
             <h2>Description:</h2>
-            <p>This project required demonstrating use of JavaScript to create a dynamic page.</p>
+            <p>I used this project to practice my regular expressions and design skills. I created a rental application and used JavaScript to validate the fields. For this project I didn't use bootstrap but insead a responsive grid to create the webpage.</p>
             <br>
             <p>
                 <a href="https://www.andresmonline.com/homework/wdv321/finished_homework/portfolioProjectAdvancedJavascript/index.html" target="_blank">

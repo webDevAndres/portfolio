@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-m-10 col-10">
             <h1>PHP contact form with database update</h1>
-            <img src="images/contactFormWithEmail.png" alt="contact form with email project and database" width="460" height="145">
+            <img src="images/contactFormWithEmail.jpg" alt="contact form with email project and database" width="460" height="145">
         </div>
         <div class="col-m-2 col-2">
             <h2>Skills used:</h2>
@@ -10,7 +10,7 @@
                 <li>PHP</li>
                 <li>SQL</li>
                 <li>PDO</li>
-                <li>MariaDB</li>
+                <li>CSS</li>
 
             </ul>
         </div>
@@ -20,7 +20,7 @@
     <div class="col-m-10 col-10">
         <aside>
             <h2>Description:</h2>
-            <p>This project required using PHP and a database to store user information in a database.</p>
+            <p>This project required using PHP to store information in a database. When the form is filled out the information is stored in a database and the user gets an email with their information.</p>
             <br>
             <p>
                 <a href="https://www.andresmonline.com/homework/wdv341/finished_homework/phpContactFormWithDatabaseUpdate/contactForm.php" target="_blank">

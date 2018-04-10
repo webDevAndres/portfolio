@@ -3,7 +3,7 @@
         <div class="col-m10 col-10">
             <h1>What you dont see</h1>
             <h2 style="color:red;"> Live Site</h2>
-            <img src="images/whatYouDontSee.PNG" alt="what you dont see site" width="460" height="145">
+            <img src="images/whatYouDontSee.jpg" alt="what you dont see site" width="460" height="145">
         </div>
 
         <div class="col-m-2 col-2">

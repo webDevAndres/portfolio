@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-m10 col-10">
             <h1>Portfolio Day splash page entry</h1>
-            <img src="images/portfolioDaySplashPage.PNG" alt="wordpress chocolate store project" width="460" height="145">
+            <img src="images/portfolioDaySplashPage.jpg" alt="wordpress chocolate store project" width="460" height="145">
         </div>
 
         <div class="col-m-2 col-2">
