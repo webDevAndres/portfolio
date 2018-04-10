@@ -247,21 +247,48 @@ if ($validForm) {
             </div>
             <div class="col-m-12 col-6">
                 <section class="rightProjectsText" id="rightProjectsText">
-                    <div class="projectsButtons">
-                        <button class="button projectButtonStyle1" id="project1">JavaScript form validation project</button>
-                        <button class="button projectButtonStyle2" id="project2">Dynamic recipe project</button>
-                        <button class="button projectButtonStyle3" id="project3">Rental application project</button>
-                        <button class="button projectButtonStyle2" id="project4">PHP Contact Form with database</button>
-                        <button class="button projectButtonStyle3" id="project5">Wordpress chocolate store</button>
-                        <button class="button projectButtonStyle1" id="project6">Wordpress FMBC project</button>
-                        <button class="button projectButtonStyle2" id="project7">PHP admin system login</button>
-                        <button class="button projectButtonStyle3" id="project8">Portfolio day splash page entry</button>
-                        <button class="button projectButtonStyle1" id="project9">Data visualization D3 example</button>
-                        <button class="button projectButtonStyle2" id="project10">Embedding videos project</button>
-                        <button class="button projectButtonStyle3" id="project11">PayPal express project</button>
-                        <button class="button projectButtonStyle1" id="project12">DMACC portfolio Day group project</button>
-                        <button class="button projectButtonStyle2" id="project13">What you dont see INOA site</button>
-
+                    <div class="projectsButtonSection">
+                        <div class="row">
+                            <div class="col-m-4 col-3">
+                                <button class="projectButton projectButtonStyle1" id="project12">DMACC portfolio Day group project</button>
+                            </div>
+                            <div class="col-m-4 col-3">
+                                <button class="projectButton projectButtonStyle2" id="project13">What you dont see INOA site</button>
+                            </div>
+                            <div class="col-m-4 col-3">
+                                <button class="projectButton projectButtonStyle3" id="project5">Wordpress chocolate store</button>
+                            </div>
+                            <div class="col-m-4 col-3">
+                                <button class="projectButton projectButtonStyle1" id="project6">Wordpress FMBC project</button>
+                            </div>
+                            <div class="col-m-4 col-3">
+                                <button class="projectButton projectButtonStyle2" id="project2">Dynamic recipe project</button>
+                            </div>
+                            <div class="col-m-4 col-3">
+                                <button class="projectButton projectButtonStyle1" id="project1">JavaScript form validation project</button>
+                            </div>
+                            <div class="col-m-4 col-3">
+                                <button class="projectButton projectButtonStyle3" id="project3">Rental application project</button>
+                            </div>
+                            <div class="col-m-4 col-3">
+                                <button class="projectButton projectButtonStyle2" id="project4">PHP Contact Form with database</button>
+                            </div>
+                            <div class="col-m-4 col-3">
+                                <button class="projectButton projectButtonStyle2" id="project7">PHP admin system login</button>
+                            </div>
+                            <div class="col-m-4 col-3">
+                                <button class="projectButton projectButtonStyle3" id="project8">Portfolio day splash page entry</button>
+                            </div>
+                            <div class="col-m-4 col-3">
+                                <button class="projectButton projectButtonStyle1" id="project9">Data visualization D3 example</button>
+                            </div>
+                            <div class="col-m-4 col-3">
+                                <button class="projectButton projectButtonStyle2" id="project10">Embedding videos project</button>
+                            </div>
+                            <div class="col-m-4 col-3">
+                                <button class="projectButton projectButtonStyle3" id="project11">PayPal express project</button>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </div>
