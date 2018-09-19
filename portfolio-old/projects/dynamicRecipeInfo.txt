@@ -1,0 +1,36 @@
+<div class="projectImages">
+    <div class="row">
+        <div class="col-m-12 col-10">
+            <h1>Dynamic Recipe Project</h1>
+            <img src="images/dynamicRecipe.jpg" alt="dynamic recipe project" width="460" ;height="145">
+        </div>
+        <div class="col-m-12 col-2">
+            <h2>Skills used:</h2>
+            <ul>
+                <li>Javascript</li>
+                <li>Bootstrap</li>
+                <li>CSS</li>
+                <li>google analytics</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-m-12 col-10">
+        <aside>
+            <h2>Description:</h2>
+            <p>This project taught me about javascript cookies and how to hide/show information using radio/checkbox and select elements. I also used this project to work on my design skills using bootstrap.</p>
+            <br>
+            <p>
+                <a href="https://www.andresmonline.com/homework/wdv321/finished_homework/dynamicRecipeProject/index.html" target="_blank">
+                    <button class="button projectButtonStyle1">Visit site</button>
+                </a>
+            </p>
+              <p>
+                <a href="https://github.com/webDevAndres/Dynamic-recipe-project" target="_blank" rel="noopener">
+                    <button class="button projectButtonStyle1">View code</button>
+                </a>
+            </p>
+        </aside>
+    </div>
+</div>

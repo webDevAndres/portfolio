@@ -1,0 +1,36 @@
+<div class="projectImages">
+    <div class="row">
+        <div class="col-m-12 col-10">
+            <h1>Rental Application</h1>
+            <img src="images/rentalApplication.jpg" alt="apartment rental application project" width="460" height="145">
+        </div>
+        <div class="col-m-12 col-2">
+            <h2>Skills used:</h2>
+            <ul>
+                <li>Javascript</li>
+                <li>jQuery</li>
+                <li>CSS</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-m-12 col-10">
+        <aside>
+            <h2>Description:</h2>
+            <p>I used this project to practice my regular expressions and design skills. I created a rental application and used JavaScript to validate the fields. For this project I didn't use bootstrap but insead a responsive grid to create the webpage.</p>
+            <br>
+            <p>
+                <a href="https://www.andresmonline.com/homework/wdv321/finished_homework/portfolioProjectAdvancedJavascript/index.html" target="_blank">
+                    <button class="button projectButtonStyle1">Visit site</button>
+                </a>
+            </p>
+             <p>
+                <a href="https://github.com/webDevAndres/rentalApplication" target="_blank"
+                    rel="noopener">
+                    <button class="button projectButtonStyle1">View code</button>
+                </a>
+            </p>
+        </aside>
+    </div>
+</div>

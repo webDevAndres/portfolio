@@ -1,0 +1,32 @@
+<div class="projectImages">
+    <div class="row">
+        <div class="col-m-12 col-10">
+            <h1>Drupal Copperstone Art</h1>
+            <h2 style="color:red;">Live Site</h2>
+            <img src="images/copperstoneArt.jpg" alt="drupal copperstone art site" width="460" height="145">
+        </div>
+
+        <div class="col-m-12 col-2">
+            <h2>Skills used:</h2>
+            <ul>
+                <li>CSS</li>
+                <li>Custom Drupal theme</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-m-12 col-10">
+        <aside>
+            <h2>Description:</h2>
+            <p>This is a live site for a client who wanted to showcase his art online.</p>
+            <br>
+            <p>
+                <a href="http://copperstoneart.andresmonline.com/" target="_blank">
+                    <button class="button projectButtonStyle1">Visit site</button>
+                </a>
+            </p>
+        </aside>
+    </div>
+</div>

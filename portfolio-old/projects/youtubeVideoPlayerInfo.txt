@@ -1,0 +1,36 @@
+<div class="projectImages">
+    <div class="row">
+        <div class="col-m-12 col-10">
+            <h1>YouTube video player</h1>
+            <img src="images/youtubeVideoPlayer.jpg" alt="YouTube video player project" width="460" height="145">
+        </div>
+
+        <div class="col-m-12 col-2">
+            <h2>Skills used:</h2>
+            <ul>
+                <li>CSS</li>
+                <li>HTML</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-m-12 col-10">
+        <aside>
+            <h2>Description:</h2>
+            <p>I explored embedding videos into a page. I used the YouTube embedd feature to add videos to a webpage. </p>
+            <br>
+            <p>
+                <a href="https://www.andresmonline.com/homework/wdv351/finished_homework/videoPlayers/youTubePlayer.html" target="_blank">
+                    <button class="button projectButtonStyle1">Visit site</button>
+                </a>
+            </p>
+              <p>
+                <a href="https://github.com/webDevAndres/videoplayers" target="_blank" rel="noopener">
+                    <button class="button projectButtonStyle1">View code</button>
+                </a>
+            </p>
+        </aside>
+    </div>
+</div>

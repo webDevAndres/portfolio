@@ -1,0 +1,23 @@
+body {
+    padding-top: 70px;
+    background-size: cover;
+    background-color: #eee7e7;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link:hover {
+    background-color: white;
+    border-bottom: 2px solid rgb(147, 34, 228);
+}
+
+.navbarShadow {
+    box-shadow: 0 0 50px grey; 
+}
+
+.footer {
+    padding: 25px;
+    background-color: #ffffff;
+}
